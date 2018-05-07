@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin_Form</class>
+ <widget class="QMainWindow" name="Admin_Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>695</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Panel</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>661</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url(G:/Final1/Image_Panel.jpg) ;
+background-repeat: no-repeat;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RemoveAccount">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>340</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Remove Account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Add_Account">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>340</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Add Account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ChangePassword">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>60</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Change Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FDO_Title">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Matura MT Script Capitals&quot;;
+background-color:black;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>FDO Panel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="EditAccount">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>340</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Edit Account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RecordDelivery">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>200</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Record Delivery</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RemoveAnimal">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>280</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Remove Animal</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Admin_Title">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Matura MT Script Capitals&quot;;
+background-color:black;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Admin Panel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Logout">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>10</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 0, 0);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RecordMeatLabel">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>200</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Record Meat Label</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScheduleSacrifice">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>280</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Schedule Sacrifice</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddAnimal">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Add Animal</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Make_Booking">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(233, 228, 255);
+font: 20pt &quot;Chiller&quot;;
+color: rgb(0, 0, 0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Make Booking</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>70</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Ravie&quot;;
+color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>70</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Kristen ITC&quot;;
+color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Ravie&quot;;
+color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Username:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Username">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>110</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Kristen ITC&quot;;
+color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>695</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
